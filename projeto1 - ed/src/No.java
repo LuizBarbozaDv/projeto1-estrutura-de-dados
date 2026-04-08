@@ -1,34 +1,10 @@
 public class No {
 
-    private int dado;
-    private No prox;
+    public Integer dado;
+    public No proximo;
 
-    // construtor
-
-    public No (int dado) {
+    public No(Integer dado) {
         this.dado = dado;
-        this.prox = null;
+        this.proximo = null;
     }
-
-    // getters
-
-    public int getDado() {
-        return dado;
-    }
-
-    public No getProx() {
-        return prox;
-    }
-
-    // setters
-
-    public void setDado (int dado) {
-        this.dado = dado;
-    }
-
-    public void setProx (No prox) {
-        this.prox = prox;
-    }
-
-
 }
